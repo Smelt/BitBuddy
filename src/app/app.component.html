@@ -1,9 +1,18 @@
-<mat-toolbar color="primary">
-  <span>Application Title</span>
-  <button mat-button color="primary">Primary</button>
-  <!-- This fills the remaining space of the current row -->
+<mat-toolbar class="mat-elevation-z10" color="primary" style="z-index: 100!important;">
+  <i class="fa fa-money" id="logo" aria-hidden="true"></i> 
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link id="textLogo" routerLink="landing" routerLinkActive="active">BitBuddy</a>
+  </nav>
+  <button id="bitLogo" mat-button color="primary"></button>
   <span class="example-fill-remaining-space"></span>
 
-  <span>Right Aligned Text</span>
+
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link routerLink="analytics" routerLinkActive="active">Sign Up <i class="fa fa-line-chart" aria-hidden="true"></i></a>
+  </nav>
+  
+
 </mat-toolbar>
+
+<router-outlet></router-outlet>
 

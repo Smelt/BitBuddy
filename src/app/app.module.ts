@@ -7,14 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
 
 const appRoutes: Routes = [
-
+  { path: '', component: LandingComponent}
 ];
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
