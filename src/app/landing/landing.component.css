@@ -1,10 +1,49 @@
 .landingImage{
-    background: url("https://static.pexels.com/photos/218983/pexels-photo-218983.jpeg");
+    background: url("http://img.pixady.com/2017/11/218633_bluecitycropped.jpg");
     background-size: cover;
     background-position: center;
     height: 1000px;
     color: white;
    
 }
+
+h1{
+    font-weight: lighter;
+    font-size: 5em;
+    color: rgb(117, 211, 255);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+            0px 3px 5px rgba(255, 255, 255, 0.3),
+            0px 6px 9px rgba(255, 255, 255, 0.5)
+           
+  }
+  
+  h3{
+    color: rgb(117, 211, 255);
+    font-weight: lighter;
+      text-shadow: 0px 2px 3px rgba(0,0,0,0.3),
+            0px 5px 9px rgb(240, 233, 233, 0.3),
+            0px 10px 12px rgb(255, 237, 237, 0.5)
+  }
+  
+
+
+
+hr { 
+
+    background-color:  rgb(117, 211, 255);
+    width: 400px;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+  
+
+  #centerText{
+    text-align: center;
+    padding-top: 1%;
+  }
 
 

@@ -8,6 +8,7 @@ import { MaterialModule } from './material.module';
 import { ChartsModule } from 'ng2-charts';
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
+import { PerformanceComponent } from './performance/performance.component';
 
 const appRoutes: Routes = [
   { path: '', component: LandingComponent}
@@ -16,7 +17,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    PerformanceComponent
   ],
   imports: [
     BrowserModule,

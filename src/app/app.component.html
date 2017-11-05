@@ -1,18 +1,26 @@
-<mat-toolbar class="mat-elevation-z10" color="primary" style="z-index: 100!important;">
+<mat-tab-group class="navLabels" >
+  <mat-tab id="firstL1" label="One">
+    <app-landing></app-landing>
+  </mat-tab>
+  <mat-tab  label="Two" label.color="white" ><label><span>House</span></label>
+    <app-performance></app-performance>
+  </mat-tab>
+</mat-tab-group>
+
+<!-- <mat-toolbar class="mat-elevation-z10" color="primary" style="z-index: 100!important;">
   <i class="fa fa-money" id="logo" aria-hidden="true"></i> 
   <nav mat-tab-nav-bar>
     <a mat-tab-link id="textLogo" routerLink="landing" routerLinkActive="active">BitBuddy</a>
+    <a mat-tab-link routerLink="landing" routerLinkActive="active">Performance</a>
+    <a mat-tab-link routerLink="landing" routerLinkActive="active">Performance</a>
   </nav>
-  <button id="bitLogo" mat-button color="primary"></button>
+  <button id="bitLogo" mat-button color="accent">Wild </button>
   <span class="example-fill-remaining-space"></span>
 
 
   <nav mat-tab-nav-bar>
-    <a mat-tab-link routerLink="analytics" routerLinkActive="active">Sign Up <i class="fa fa-line-chart" aria-hidden="true"></i></a>
+    <a mat-tab-link routerLink="analytics" routerLinkActive="active">Login</a>
   </nav>
-  
+</mat-toolbar> -->
 
-</mat-toolbar>
-
-<router-outlet></router-outlet>
 

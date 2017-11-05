@@ -6,12 +6,31 @@
     font-size: 1.5em;
 }
 
-.mat-tab-link{
+mat-tab-link{
     color: white;
 }
 
 #logo{
     size: 50%;
+}
+
+#firstL1{
+    color: white;
+}
+.mat-tab-label.mat-tab-label-active {
+    background-color: white !important;
+  }
+
+.personal {
+    color: white;
+    background-color: white;
+
+}
+
+	
+
+link {
+    color:white;
 }
 
 .matNavBar{
@@ -22,6 +41,14 @@
 
 mat-toolbar{
     color: white;
+}
+
+mat-tab-group {
+    background-color: black;
+}
+
+.navLabels {
+    color: rgb(117, 211, 255);
 }
 
 
